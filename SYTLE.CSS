@@ -1,0 +1,136 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #2563eb;
+    color: white;
+
+}
+
+.nav-link {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 28px;
+}
+
+.btn-transition {
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+}
+
+.btn-transition:hover {
+    background-color: red;
+}
+
+.btn-transition:hover {
+    transform: scale(1.1);
+
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.feature-card {
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    background-color: #eff6ef;
+    border-radius: 12px;
+    transition: transform 0.3s;
+
+}
+
+.feature-card:hover {
+    transform: scale(1.1);
+}
+
+.animation {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.animation-card {
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    background-color: #eff6ef;
+    border-radius: 12px;
+    transition: transform 0.3s;
+
+}
+
+.animation-card:hover {
+    transform: scale(1.1);
+
+}
+
+.animation-card {
+    width: 250px;
+    padding: 25px;
+    text-decoration: center;
+    background-color: #d1fae5;
+    border-radius: 12px;
+
+
+}
+
+@keyframes floating {
+    from {
+        transform: scale:(1.1);
+        ;
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.loading-section {
+    text-align: center;
+    padding: 50px 20 px;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px auto;
+    border: 5px solid #dbeafb;
+    border-top: 5px solid #2563eb;
+    border-radius: 50%;
+
+    animation: spin 1s linier infinite;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+
+    }
+}
